@@ -2,20 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Product Page</title>
 </head>
-<body>
+<body class="is-flex is-flex-direction-column ">
 <!--Your code goes below this line-->
 
-    
+<nav aria-label="main navigation" class="navbar has-background is-danger" role="navigation">
+    <div class="navbar-brand">
+        <!--        <a class="navbar-item" href="https://bulma.io">-->
+        <!--            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">-->
+        <!--        </a>-->
+        <div class="navbar-item">
+            <p>Chicken Mugs</p>
+        </div>
+    </div>
+
+    <div class="navbar-menu " id="navbarBasicExample">
+        <div class="navbar-end">
+            <a class="navbar-item">
+                Features
+            </a>
+
+            <a class="navbar-item">
+                Products
+            </a>
+            
+        </div>
+
+    </div>
+</nav>
+<!--Form-->
+<section class="section is-fluid is-flex is-flex-direction-column is-align-items-center">
+    <div id="form" class="container">
+        <h1>Buy Chicken Mugs</h1>
+        <form class="mt-2" action="submit">
+            <input class="input is-normal" placeholder="enter email" type="text">
+            <button class="button is-warning mt-2">Get Started</button>
+        </form>
+    </div>
+</section>
+
+<!--Features-->
+<section id="features" class="section is-fluid is-flex is-flex-direction-column is-align-items-center">
+    <h2 id="header" class="title is-2">Hand-made Mugs</h2>
+    <p>Mugs crafted by chickens</p>
+    <h2 class="title is-2 mt-6">Farm-raised Chickens</h2>
+    <p>Locally and ethically raised chickens</p>
+    <h2 class="title is-2 mt-6">Fast Shipping</h2>
+    <p>Quick shipping with no damages</p>
+    <figure class="image is-200x200 mt-6">
+        <img src="https://images.unsplash.com/photo-1490395957191-b50e5cc253fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1468&q=80">
+    </figure>
+</section>
+
+<!--products-->
+
+<section class="section">
+    <div class="container is-align-items-center">
+        <h3 class="title has-text-centered is-size-4">Products</h3>
+        <div class="columns mt-5 is-8 is-variable is-justify-content-space-around	">
+            <div class="column is-4-tablet is-3-desktop">
+              <div class="card">
+                  <div class="card-image has-text-centered px-6">
+                      <img src="https://images.unsplash.com/photo-1555118367-93f01e18660f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="product">
+                  </div>
+                  <div class="card-content has-text-centered px-6">
+                      <p>$10</p>
+                      <p class="title is-size-5">Small Mug</p>
+                  </div>
+                  <footer class="card-footer">
+                      <p class="card-footer-item">
+                          <a href="" class="has-text-grey">select</a>
+                      </p>
+                  </footer>
+              </div>
+            </div>
+
+
+<!--        <div class="columns mt-5 is-8 is-variable">-->
+            <div class="column is-4-tablet is-3-desktop">
+                <div class="card">
+                    <div class="card-image has-text-centered px-6">
+                        <img src="https://images.unsplash.com/photo-1495100497150-fe209c585f50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="product">
+                    </div>
+                    <div class="card-content has-text-centered px-6">
+                        <p>$15</p>
+                        <p class="title is-size-5">Medium Mug</p>
+                    </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <a href="" class="has-text-grey">select</a>
+                        </p>
+                    </footer>
+                </div>
+            </div>
+<!--        </div>-->
+
+<!--        <div class="columns mt-5 is-8 is-variable">-->
+            <div class="column is-4-tablet is-3-desktop">
+                <div class="card">
+                    <div class="card-image has-text-centered px-6">
+                        <img src="https://images.unsplash.com/photo-1521078015641-9a722072c6ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG11Z3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="product">
+                    </div>
+                    <div class="card-content has-text-centered px-6">
+                        <p>$20</p>
+                        <p class="title is-size-5">Large Mug</p>
+                    </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                            <a href="" class="has-text-grey">select</a>
+                        </p>
+                    </footer>
+                </div>
+            </div>
+<!--        </div>-->
+        </div>
+    </div>
+</section>
+
+
+
 <!--Your code goes above this line-->
-    
+
 <!--TESTS Remove the script line below when you are ready to make it a page on GitHub Pages-->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
