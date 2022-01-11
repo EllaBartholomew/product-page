@@ -1,7 +1,18 @@
-html{
+html {
 
 }
 
-body{
-
+body {
+    width: 100vw;
 }
+
+#form {
+    max-width: 50%;
+    text-align: center;
+}
+
+.section {
+    max-width: 80%;
+    margin: auto;
+}
+#features{}
